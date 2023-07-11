@@ -2,6 +2,7 @@
 :ID:       99cf6cc3-a821-4b1f-910e-56169759307f
 :END:
 #+title: Hare
+#+date: 2023-07-11
 
 * Learning Hare from the Hare Programming Language Tutorial
 
@@ -22,7 +23,7 @@
 - ~use~ to import modules such as ~fmt~
 - ~!~ is an error assertion operator. Discouraged to use.
 
-code sample in the tutorial
+***** Code sample in the tutorial
 
 #+begin_src hare
 use fmt;
@@ -32,8 +33,7 @@ export fn main() void = {
 };
 #+end_src
 
-- Removing ~!~ causes an error since the _programmer is desired to handle this_ as
-described in [[*Error handling]].
+- Removing ~!~ causes an error since the /programmer is desired to handle this/ as described in [[*Error handling]].
 
 **** Hare basics
 
@@ -43,16 +43,14 @@ described in [[*Error handling]].
 inside ~()~ tokens when declaring a function.
   - ~greet~ function here accepts ~user~ of type ~str~.
 
-Use ~haredoc~ to check **documentation** such as ~io::error~. Very useful for learning
-available ~stdlib~.
+Use ~haredoc~ to check **documentation** such as ~io::error~. Very useful for learning available ~stdlib~.
 
 ***** Variables and COnstants
 
 - ~let~ to define a non-constant variable.
 - ~const~ to define a variable as a constant.
 
-Constants, like most programming languages, _can't be modified_. However, you can
-_re-bind_ it by creating a variable with the same name like so:
+Constants, like most programming languages, /can't be modified/. However, you can /re-bind/ it by creating a variable with the same name like so:
 
 #+begin_src hare
 	const source = os::open("main.ha")!;
@@ -72,7 +70,7 @@ As seen from above, you may also want to change its type.
 - ~u8~ ⇒ unsigned 8-bit integer
 - ~f32~ ⇒ 32-bit floating point number
 
-Numeric types can be _inferred_ from a suffix from the first letter of the type
+Numeric types can be *inferred* from a suffix from the first letter of the type
 along with the number of bits e.g. ~i~, ~u8~.
 
 Declaring a variable with an signed integer of ~10~ can be done with ~a = 10i~.
@@ -114,15 +112,14 @@ let foo = struct {
 #+end_src
 
 Tuples are like structs but it does not have name fields. This is similar with other
-languages such as [Julia](https://docs.julialang.org/en/v1/manual/functions/*Tuples)
-and other languages.
+languages such as [[https://docs.julialang.org/en/v1/manual/functions/#Tuples][Julia]] and other languages.
 
 #+begin_src hare
 let sometuple: (int, str, int) = (0, "string", 1);
 #+end_src
 
 They can be accessed by their _ordinal position_ starting from **0** like most C
-and C-inspired languages. Julia and Lua are some exceptions.
+and C-inspired languages. *Julia* and *Lua* are some exceptions.
 
 ****** Arrays and slices
 
