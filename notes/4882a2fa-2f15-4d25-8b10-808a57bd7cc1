@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       4882a2fa-2f15-4d25-8b10-808a57bd7cc1
+:END:
+#+date: 2023-07-19
+#+title: SBOL3
+
+[[https://sbolstandard.org/][Synthetic Biology Open Language]] is a specification for modeling biological components such as DNA, genees,
+or proteins. According to their website,
+
+#+begin_quote
+SBOL is a free and open-source standard for the representation of biological designs. The SBOL standard was developed by the synthetic biology community to create a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs.
+#+end_quote
+
+My goal for this project is to write and implement this specification in *three* different programming languages
+
+- [[id:c4a7fa2e-945c-442f-b529-8f42d16cfb62][Crystal]]
+- [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]]
+- [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]]
+
+The repositories related to SBOL3 can be found at https://github.com/SynBioDex.
+
+* Challenges
+
+Currently, I think [[id:c4a7fa2e-945c-442f-b529-8f42d16cfb62][Crystal]] is the perfect language for the specification since it's [[id:e2521b6a-34e9-43be-b886-c929bd6b9437][OOP]]
+and the specification itself seems to lean on [[id:e2521b6a-34e9-43be-b886-c929bd6b9437][OOP]] as well. [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]] can probably /emulate/ this with its
+types and interfaces feature. I have some issues with [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]] though but I may have not asked the right
+questions or the right approach yet.
+
+* TODO First steps. [0%]
+
+I should do the following TODOs here just to keep myself sane.
+
+- [ ] Read the documentation and the journal article. https://doi.org/10.3389/fbioe.2020.01009
+- [ ] Write Software Architecture Documentation to easily follow each component of the specification. /The journal article has it but it's too complex so I may have to simplify some things along the way/. There are some guides on
+  how to write one such as https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/
+  
+* TODO Start coding [0%]
+ - [ ] https://github.com/uncomfyhalomacro/sbol3.cr
+ - [ ] https://github.com/uncomfyhalomacro/SBOL3.jl
+ - [ ] https://github.com/uncomfyhalomacro/sbol3-rs

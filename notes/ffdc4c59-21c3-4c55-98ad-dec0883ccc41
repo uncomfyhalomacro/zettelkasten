@@ -5,7 +5,8 @@
 
 As described on their website https://www.llvm.org/, LLVM or "Low Level Virtual Machine"
 is a collection of compiler toolchain technologies. Programming languages such as [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]], [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]],
-and [[id:c4a7fa2e-945c-442f-b529-8f42d16cfb62][Crystal]] took leverage of [[id:ffdc4c59-21c3-4c55-98ad-dec0883ccc41][LLVM]] giving them the edge on performance, and tooling.
+and [[id:c4a7fa2e-945c-442f-b529-8f42d16cfb62][Crystal]] took leverage of [[id:ffdc4c59-21c3-4c55-98ad-dec0883ccc41][LLVM]] giving them the edge on performance, and tooling. [[id:2a58f9f2-81e4-404d-ad73-b4256639267a][Zig]] will be
+[[https://github.com/ziglang/zig/issues/16270][*divorcing*]] LLVM in the near future.
 
 * Building LLVM from Source
 
@@ -61,6 +62,11 @@ This saves a lot of time and storage when I just need that revision.
 *tl;dr* I already know git so let's skip.
 
 *** Building LLVM 12
+:LOGBOOK:
+- Note taken on [2023-07-12 Wed 09:19] \\
+  This setup may not work on newer versions but I predict it would still be similar
+:END:
+
 
 Cmake is used to build LLVM. On Windows, the backlash character ~\\~ is the directory
 name separator. Cmake automatically *converts* the Unix separator into the Windows one.
