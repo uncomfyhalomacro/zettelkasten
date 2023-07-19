@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:       87a7d2cb-6510-4376-99f3-0dbff8e5d542
+:END:
+#+title: Ecology
+
+Ecology is the study of the relationships between living organisms and their physical environment. The living organisms and their by-products are called as the [[id:2640469d-dbbe-448d-8751-cc46dbd8fea9][biotic components]] and the physical environment such as water, air, and soil, are called as [[id:0af132a6-445e-4b1f-95e6-b89b861ab5d6][abiotic Components]]. These constitutes to what we call as an *ecosystem*, a collection and interaction between abiotic and biotic components.
+
+* Abiotic Components
+:PROPERTIES:
+:ID:       0af132a6-445e-4b1f-95e6-b89b861ab5d6
+:END:
+
+Abiotic components include the following environmental factors such as
+
+- Temperature
+- Humidity
+- pH level of soil
+- Weather
+- Climate
+- Altitude
+
+* Biotic Components
+:PROPERTIES:
+:ID:       2640469d-dbbe-448d-8751-cc46dbd8fea9
+:END:
+
+These includes all living things in an ecosystem. These includes
+- Plants
+- Animals
+- Fungi
+- and other microorganisms
+
+* Energy Flows
+:PROPERTIES:
+:ID:       94dea82f-2fa6-42d9-988f-d486e0e74f72
+:END:
+
+Energy is the whole driving force for everything that is happening in or on the planet.
+Life requires energy to do various functions where the end goal is to reproduce and to sustain a stable
+population.
+
+Energy flows through the ecosystem from high density energy organic matter such as carbohydrates produced from
+*photosynthesis*, to low density energy organic matter from *heterotrophs* e.g. primary consumers, herbivores.
+
+The reason why it goes from *high* to *low* is because using energy is /inefficient/ and is lost as _*heat*_.
+
+Each "level" of energy from high to low is called the _*trophic level*_.
+
+Simplified models of how energy flows in the ecosystem are presented as energy pyramids, food/energy chain, and the food web. All of these models contain the same or similar components in the following:
+
+- Producers; where composed of autotrophic organisms such as plants.
+- Consumers; where these can be further broken down as
+  - Primary consumers
+  - Secondary consumers
+  - Tertiary consumers
+- Decomposers; mostly comprised of microorganisms such as fungi and bacteria which breakdown dead matter into simpler compounds.
+
+Here are some image examples:
+
+
+#+attr_org: :width 100
+
+- Food/Energy Pyramid [[https://www.sciencefacts.net/wp-content/uploads/2023/01/Trophic-Level-768x660.jpg][Image of Energy Pyramid]]
+- Food Chain
+  
+  #+begin_src txt
+   Producers -> Primary Consumers -> Secondary Consumers -> Tertiary Consumers
+  #+end_src
+- Food Web [[https://www.sciencefacts.net/wp-content/uploads/2023/01/Food-Web-768x846.jpg][Image of Food Web]]
+
+* Organism Interactions
+:PROPERTIES:
+:ID:       aeb6e3e3-4fc5-49c1-b51e-2bc919f179a7
+:END:
+
+** Commensalism
+
+** Mutualism
+
+** Parasitism
+
+** Symbiosis
+
+** Predation
