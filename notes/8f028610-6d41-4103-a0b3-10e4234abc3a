@@ -1,5 +1,47 @@
 :PROPERTIES:
 :ID:       8f028610-6d41-4103-a0b3-10e4234abc3a
 :END:
+#+OPTIONS: ^:{}
 #+title: Carbon Cycle
 
+The element *carbon* is the backbone of all organic compounds used for the synthesis of important molecules such
+as _proteins, lipids, carbohydrates, and nucleic acids_.
+
+Carbon exists as *carbon dioxide* in the atmosphere and must be converted into usable form. Plants do this
+through the process called */photosynthesis/* which converts CO_{2} to *glucose*.
+
+Other processes are involved in the [[id:8f028610-6d41-4103-a0b3-10e4234abc3a][Carbon Cycle]]:
+
+* Cellular Respiration
+:PROPERTIES:
+:ID:       2216c1e5-2111-488a-a7ff-59a8fad4f96c
+:END:
+
+Cellular Respiration is the process of which glucose is broken down to form ATP (adenosine triphosphate)
+to be used as energy. The process requires oxygen and releases carbon dioxide and water as *waste*. This
+results of returning *carbon* back to the atmosphere as CO_{2}.
+
+
+* Decomposition
+:PROPERTIES:
+:ID:       30d5d68e-bc64-41d3-bfc0-7d77270d8acf
+:END:
+
+Dead material and organic matter are broken down by *decomposers* from complex to simpler compounds, thus,
+returning carbon to the environment.
+
+* Combustion
+:PROPERTIES:
+:ID:       aed8ef2b-7a2a-4ee3-92ce-0266a6b6470f
+:END:
+
+Burning such as those from wildfires and from fossil fuels from human activity also returns carbon as CO_{2}
+gas back to the atmosphere. Incomplete combustion is released as carbon monoxide.
+
+* Dissolution
+:PROPERTIES:
+:ID:       035a930f-bce6-47a7-8005-6b58bc071ba1
+:END:
+
+It's the dissolving of gas to a liquid. This happens to atmospheric CO_{2} as well where it also dissolves on
+bodies of liquid water.
