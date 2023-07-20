@@ -3,7 +3,12 @@
 :END:
 #+title: 2023-07-20
 
-* TODO Give quiz for GEL103NU
+* DONE Give quiz for GEL103NU
+CLOSED: [2023-07-20 Thu 14:12]
+:LOGBOOK:
+- Note taken on [2023-07-20 Thu 14:12] \\
+  cancelled
+:END:
 
 * TODO Give midterm exam for STS103NU
 
@@ -18,3 +23,6 @@
 
 
 * TODO Finish [[id:8c2c2a09-115d-4971-818c-30ef33c07e24][Environmental Science]] note
+:PROPERTIES:
+:ID:       49848809-f89b-4703-b7ff-2ede6a50e060
+:END:

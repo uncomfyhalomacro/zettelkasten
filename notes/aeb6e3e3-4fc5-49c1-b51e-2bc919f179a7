@@ -4,11 +4,42 @@
 :END:
 
 ** Commensalism
+:PROPERTIES:
+:ID:       71c39a81-8de0-4c79-a7da-1e6a7c3c1dbf
+:END:
+
+Commensalism is an interaction between two organisms whereas one benefits from the other while the other organism is unharmed.
 
 ** Mutualism
+:PROPERTIES:
+:ID:       d5864032-24e1-446c-9fb8-91a217ab74b7
+:END:
+
+Mutualism is an interaction between two organisms whereas both organisms benefit from their interactions e.g.
+sea anemone and clownfish (one protects while the other gives food).
 
 ** Parasitism
+:PROPERTIES:
+:ID:       e4485920-c207-43c2-aa6c-2bdc8705a54b
+:END:
+
+Parasitism is an interaction between two organisms: the parasite and the host.
+
+The parasite takes the resources from the host organism and may harm the host organism in the process. Parasites
+are either ectoparasitic (external) or endoparasitic (internal).
 
 ** Symbiosis
+:PROPERTIES:
+:ID:       2f4e721f-b827-4a7d-aa3f-822bf36d66e3
+:END:
+
+Similar to [[id:d5864032-24e1-446c-9fb8-91a217ab74b7][Mutualism]]. However, one must exist for the other, otherwise, the organism involved will die. An
+example of symbiotic relationships are *lichens*.
 
 ** Predation
+:PROPERTIES:
+:ID:       042aaeea-a117-4cff-a440-5c3dbd48b613
+:END:
+
+This is an interaction between organisms where there is an organism to be eaten (prey), and the other that eats
+(predator).
