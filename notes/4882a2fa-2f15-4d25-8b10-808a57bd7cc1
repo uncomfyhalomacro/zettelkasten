@@ -31,10 +31,17 @@ questions or the right approach yet.
 I should do the following TODOs here just to keep myself sane.
 
 - [ ] Read the documentation and the journal article. https://doi.org/10.3389/fbioe.2020.01009
-- [ ] Write Software Architecture Documentation to easily follow each component of the specification. /The journal article has it but it's too complex so I may have to simplify some things along the way/. There are some guides on
-  how to write one such as https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/
+- [ ] Write Software Architecture Documentation to easily follow each component of the specification. /The
+  journal article has it but it's too complex so I may have to simplify some things along the way/. There are
+  some guides on how to write one such as
+  https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/
+- [ ] Finish reading the book [[id:0713974b-e4a5-41bd-ab98-211be4361a86][Crystal Programming Book]].
+- [ ] Finish redoing Rust video tutorials and the [[id:4d33d134-87fa-46f4-bb30-68373d9bf095][Rust Book]].
+- [ ] Finish rereading the https://docs.julialang.org/en/v1/
   
 * TODO Start coding [0%]
  - [ ] https://github.com/uncomfyhalomacro/sbol3.cr
  - [ ] https://github.com/uncomfyhalomacro/SBOL3.jl
  - [ ] https://github.com/uncomfyhalomacro/sbol3-rs
+
+   
