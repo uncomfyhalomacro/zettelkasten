@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1e8fdbc8-37a5-498b-83d5-cdd1c73d0cf3
+:END:
+#+title: Eutrophication
+
+This is the process that describes that introducing additional nutrients such as nitrogen and phosphorus
+to bodies of water can allow species of algae to grow out of control. Once the nutrient is depleted, this increase of algae growth will die off and decay which _depletes_ the /oxygen level/ dissolved in the water.
+
+This creates */_dead zones_/*, where areas of water bodies do not have enough oxygen to support some species.

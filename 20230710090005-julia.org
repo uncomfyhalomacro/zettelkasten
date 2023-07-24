@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       012ea94d-2074-4147-a72a-94efb4b38ed4
+:END:
+#+title: Julia
+#+date: 2023-07-11
+

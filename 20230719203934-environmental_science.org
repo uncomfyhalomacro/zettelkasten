@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       8c2c2a09-115d-4971-818c-30ef33c07e24
+:END:
+#+title: Environmental Science
+
+Environmental Science is an /interdisciplinary field/ that tackles various angles such as
+the importance of the environment, and the impacts of human activity and how social problems
+are related to environmental issues. These also includes topics such as [[id:72c49662-3a01-47a4-8d28-86058e743c73][Global Warming]], [[id:083d72c4-1273-4562-98e4-b72ffb93402c][Climate Change]],
+and [[id:518f0cc2-c05b-4e6e-97d2-ee56038f0168][biodiversity]].
+
+Environmental Science can be thought of a mix of both social sciences and natural sciences; the former
+dealing with human activity and human behavior, and the latter dealing with biogeochemical processes
+such as predator and prey relationships, and the [[id:62e74b2d-f1fb-4c81-82e9-e5974ea82c6e][Nutrient Cycle]] e.g. [[id:8f028610-6d41-4103-a0b3-10e4234abc3a][Carbon Cycle]], [[id:2fdf710c-3e4c-486b-8e0c-c6b060e76496][Nitrogen Cycle]], [[id:4454c09a-bed0-430b-8273-87a67d7c15fc][Phosphorus Cycle]], [[id:86dd0d8d-fd13-42e1-9214-de014bfc3ed8][Water Cycle]], and [[id:1e8fdbc8-37a5-498b-83d5-cdd1c73d0cf3][Eutrophication]] — which is the overall subject can be considered under [[id:87a7d2cb-6510-4376-99f3-0dbff8e5d542][Ecology]].
+
+Environmental Science should not be confused with [[id:9cb79d55-7495-4457-a11e-872bda8ff6c2][Environmentalism]] as the former focused on science
+and the latter focuses on */advocacy/*.
+
+* Terminologies
+:PROPERTIES:
+:ID:       124d31e5-7dc1-4bdd-bfea-9c7c12044f69
+:END:
+
+** Ecological Footprint
+:PROPERTIES:
+:ID:       7c5dd2ad-71b7-4082-927b-fa32d02d421d
+:END:
+
+It is a measure of the demands made by a person or a group of people on global natural resources.
+
+See [[id:044d82e3-8f4e-44e3-90f7-cce0ecb026f2][Carrying Capacity]].
+
+** Carrying Capacity
+:PROPERTIES:
+:ID:       044d82e3-8f4e-44e3-90f7-cce0ecb026f2
+:END:
+
+This is defined as */the maximum population size of a biological species that can be sustained
+by the environment/*. The carrying capacity is an *inverse of the [[id:7c5dd2ad-71b7-4082-927b-fa32d02d421d][Ecological Footprint]]*. This means,
+a growing population that takes resources (the footprint) will one day exhaust or reach the maximum
+carrying capacity.
+
+
+

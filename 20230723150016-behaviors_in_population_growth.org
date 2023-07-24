@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1c4cf927-6b6c-46b0-bd08-d4e08d5415c7
+:END:
+#+title: Behaviors in Population Growth
+
+A [[id:3cf0bba6-e4d7-49ff-9609-afc48c6889b5][Population's Density]] can affect how rapidly it can grow or decline such as biotic factors like disease.
+
+Some population control factors are not affected by population density e.g. abiotic factors like weather.

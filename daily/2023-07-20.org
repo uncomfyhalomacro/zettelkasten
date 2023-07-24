@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       850cde79-d027-469f-a226-8b6c1042c3df
+:END:
+#+title: 2023-07-20
+
+* DONE Give quiz for GEL103NU
+CLOSED: [2023-07-20 Thu 14:12]
+:LOGBOOK:
+- Note taken on [2023-07-20 Thu 14:12] \\
+  cancelled
+:END:
+
+* DONE Give midterm exam for STS103NU
+CLOSED: [2023-07-20 Thu 17:48]
+
+* DONE Write a note for tomorrow
+CLOSED: [2023-07-20 Thu 22:46]
+
+* DONE Finish [[id:8c2c2a09-115d-4971-818c-30ef33c07e24][Environmental Science]] note
+CLOSED: [2023-07-21 Fri 22:24]
+:LOGBOOK:
+- Note taken on [2023-07-21 Fri 22:24] \\
+  Initial for Midterms
+:END:

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       5e96f4d3-92a1-44f8-a4f0-ff49d3d72801
+:END:
+#+title: 2023-07-23
+
+* TODO Read the [[id:0713974b-e4a5-41bd-ab98-211be4361a86][Crystal Programming Book]] [0%]
+The following chapters are essential for the [[id:4882a2fa-2f15-4d25-8b10-808a57bd7cc1][SBOL3]] project.
+- [ ] Chapter 3
+- [ ] Chapter 4
+- [ ] Chapter 15
+
+* TODO Create note for GEL103 Semi-Final and Final topics [0%]
+- [ ] k and r selected species (reproduction rate)
+- [ ] population and population growth
+- [ ] pollution
+  - [ ] solid waste
+  - [ ] microplastics
+- [ ] biodiversity
+  - [ ] invasive or introduced species
+- [ ] ozone layer and cfcs
+- [ ] habitat loss
+- [ ] overexploitation
+
+* TODO Read more about [[id:4882a2fa-2f15-4d25-8b10-808a57bd7cc1][SBOL3]] [50%]
+- [X] Specification
+- [ ] Usage

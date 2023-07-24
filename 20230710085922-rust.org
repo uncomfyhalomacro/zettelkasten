@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3
+:END:
+#+title: Rust
+
+* Rust Book
+:PROPERTIES:
+:ID:       4d33d134-87fa-46f4-bb30-68373d9bf095
+:END:
+
+Book link is at https://doc.rust-lang.org/nightly/book/.

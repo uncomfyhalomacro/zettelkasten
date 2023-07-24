@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1971c450-d156-4e1e-8310-911e12f06370
+:END:
+#+title: Population Dynamics
+
+It is the study of how and why [[id:4b331ec5-d3de-4123-99b4-7c459613ab9e][Population]] change sizes and the factors involved in relation to their
+environment.
