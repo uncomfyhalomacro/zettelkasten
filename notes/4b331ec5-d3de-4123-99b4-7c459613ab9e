@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       4b331ec5-d3de-4123-99b4-7c459613ab9e
+:END:
+#+title: Population
+
+In [[id:87a7d2cb-6510-4376-99f3-0dbff8e5d542][Ecology]] and [[id:1971c450-d156-4e1e-8310-911e12f06370][Population Dynamics]], a _population_ describes /the number of species within a particular area or region at a particular time/.
+
+There are many /parameters/ of population, namely, population density, birth rate, death rate, age structure,
+fecundity and population size.
+
+* Population Size
+:PROPERTIES:
+:ID:       686a494d-81a9-4eba-95f8-6ad4918b3fdf
+:END:
+
+The number of individuals present in a subjectively designated geographic range.
+
+** Factors affecting [[id:686a494d-81a9-4eba-95f8-6ad4918b3fdf][Population Size]]
+
+- Immigration and births increases population size.
+- Emigration and deaths decreases population size
+
+Population size is estimated rather than using raw numbers based on total number of births or deaths
+per 1,000 people in a population.
+
+* Population Density
+:PROPERTIES:
+:ID:       3cf0bba6-e4d7-49ff-9609-afc48c6889b5
+:END:
+
+The size of a population in relation to the amount of space that it occupies.
+
+* Age Structures
+:PROPERTIES:
+:ID:       ad507c29-9c4c-4efe-b288-1c065a727d50
+:END:
+
+How fast a population grows or declines is based on its age structure.
+
+- _Preproductive age_: not mature enough to reproduce.
+- _Reproductive age_: those capable of reproduction.
+- _Postreproductive age_: those too old to reproduce.
+

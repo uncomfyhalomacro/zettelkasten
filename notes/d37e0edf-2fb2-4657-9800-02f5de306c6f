@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       d37e0edf-2fb2-4657-9800-02f5de306c6f
+:END:
+#+title: What To Learn Before 2023 Ends
+
+* Deadline
+DEADLINE: <2024-01-01 Mon>
+
+* TODO Docker Mastery [0%]
+:PROPERTIES:
+:ID:       56fcd3f5-75e6-4453-a095-c86a8d4cc77e
+:END:
+- [ ] Communication between host and container
+- [ ] Set up PostgreSQL DB
+- [ ] Set up a running mini server instance (experimentation)
+  - NextCloud (for hosting file management system)
+  - Forgejo (for hosting git)
+
+* TODO Systemd Mastery [0%]
+:PROPERTIES:
+:ID:       c3a77d95-97c9-4f7b-8938-50428b9ea074
+:END:
+- [ ] Setup services that runs on startup
+  - [[id:56fcd3f5-75e6-4453-a095-c86a8d4cc77e][Docker]]
+  - Run a program based on an env var
+- [ ] Learn about Systemd Timers
+  - Setup "cron" jobs for the following
+    - Theming (for the giggles)
+    - Delete cache at =~/.cache/= every week
+    - Update flatpak apps every 2 days
+
+* TODO Rust Mastery [0%]
+:PROPERTIES:
+:ID:       a81bfd13-1b99-477f-8fef-c697da81fee4
+:END:
+
+Focus my mastery on [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]].
+- [ ] Structs  and Impls
+- [ ] Error Handling
+- [ ] Pattern Matching
+- [ ] Closures
+- [ ] Traits
+- [ ] Modules and Crates
+
+* TODO Julia Mastery [0%]
+:PROPERTIES:
+:ID:       6ee27616-ed95-4701-926f-c2a0a87e82f3
+:END:
+
+Focus my mastery on [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]]
+- [ ] Structs and Types
+- [ ] Type Hierarchy:
+  - Concrete Types
+  - Abstract Types
+- [ ] Multiple Dispatch
+- [ ] Performance Tips
