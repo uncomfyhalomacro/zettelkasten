@@ -1,0 +1,10 @@
+#+title: Zettelkasten
+#+author: Soc Virnyl Estela
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-24
+
+Welcome to my repository of zettelkasten notes!
+
+The repository uses a [[https://github.com/uncomfyhalomacro/org-roam-ui/tree/feature/add-export-functionality][fork]] of [[https://github.com/org-roam/org-roam-ui][org roam ui]] that generates a standalone app for my zettelkasten notes.
+
+You can check it out at https://zettelkasten.uncomfyhalomacro.pl.
