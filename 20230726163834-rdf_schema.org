@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       ddf205be-3705-4cfb-a313-3b3926987004
+:END:
+#+author: Soc Virnyl Estela
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-26
+#+title: RDF Schema
+
+This note is for knowing how RDF Schema works.
+
+* Reason
+
+This is for a [[id:4882a2fa-2f15-4d25-8b10-808a57bd7cc1][SBOL3]] [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]] package called [[https://codeberg.org/uncomfyhalomacro/Rudolf.jl][Rudolf.jl]]. It seems some packages for this schema
+were abandoned. /Probably due to lack of usage/.
+
+* Relevant link/s
+- https://www.w3.org/TR/rdf12-schema
+
+
