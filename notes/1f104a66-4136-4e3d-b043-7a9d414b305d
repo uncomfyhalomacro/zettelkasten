@@ -1,0 +1,66 @@
+* Progress with [[https://github.com/seanmonstar/reqwest][reqwest]] and HTTP request to openSUSE repos
+:PROPERTIES:
+:ID:       1f104a66-4136-4e3d-b043-7a9d414b305d
+:END:
+
+#+begin_src rust
+  use reqwest::{Client, Response};
+
+  // Function to send the custom request
+  async fn send_custom_request(url: &str) -> Result<Response, reqwest::Error> {
+      // Create a new reqwest Client
+      let client = Client::new();
+
+      // Create custom Accept headers
+      let mut headers = HeaderMap::new();
+      headers.insert(
+          ACCEPT,
+          "application/xml, application/metalink+xml, application/metalink4+xml"
+              .parse()
+              .unwrap(),
+      );
+
+      // Build the request with the custom headers
+      let request_builder = client.get(url).headers(headers);
+
+      // Send the request and await the response
+      let response = request_builder.send().await?;
+
+      Ok(response)
+  }
+
+  // Example usage
+  #[tokio::main]
+  async fn main() {
+      let url = "https://download.opensuse.org/tumbleweed/repo/oss/repodata/repomd.xml";
+      let response = send_custom_request(url).await;
+
+      match response {
+          Ok(response) => {
+              // Process the response here
+              println!("Response Status: {}", response.status());
+              let r: String = match response.text_with_charset("utf-8").await {
+                  Ok(r) => r,
+                  Err(e) => {
+                      panic!("Invalid response text: {}", e);
+                  }
+              };
+              println!("Response text: {:#?}", r);
+              // ... other handling of the response ...
+          }
+          Err(e) => {
+              eprintln!("Error: {}", e);
+          }
+      }
+}
+#+end_src
+
+It turns out that we can use [[https://github.com/seanmonstar/reqwest][reqwest]] and [[https://github.com/tokio-rs/tokio][tokio]] for this assuming we have the following dependency declaration:
+
+#+begin_src toml
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+#+end_src
+
+This should be at =rypper-core=.

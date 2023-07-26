@@ -1,0 +1,92 @@
+:PROPERTIES:
+:ID:       adda8b0d-b40c-47e5-9027-a4ad3840eb2a
+:END:
+#+title: 
+#+author: Soc Virnyl Estela
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-26
+#+title: rypper
+
+* Rationale
+
+Rypper is my first serious [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]] project or even programming project in a very long while.
+
+I will log a journal every time I have done something related to the project as =org-note=.
+
+* TODO Implement the following features per crate
+DEADLINE: <2024-01-01 Mon>
+
+:LOGBOOK:
+- Note taken on [2023-06-27 Tue 22:25] \\
+  So far so good. I am liking the Emacs Org Mode features especially
+  =org-agenda=. Glad that it all worked out for this project journal
+  for *Rypper*.
+:END:
+
+** TODO =rypper-reader= [0%]
+SCHEDULED: <2023-07-15 Sat>
+:PROPERTIES:
+:ID:       1f30bfbf-98ed-4d39-b6d5-9e338dade38f
+:END:
+:LOGBOOK:
+- Rescheduled from "[2023-07-04 Tue]" on [2023-07-03 Mon 23:50]
+- Rescheduled from "[2023-07-01 Sat]" on [2023-07-03 Mon 23:48]
+- Note taken on [2023-06-27 Tue 22:29] \\
+  During my query from the people for =RepoConfig= struct,
+  I decided to go for =impl Default for RepoConfig= to implement
+  the =default= method for that struct. I was thinking of using
+  the Builder approach but it's a bit overkill for a small project
+  that is yet to become bigger.
+  
+  William Brown, also known as [[https://github.com/firstyear][firstyear]], taught me a little bit about
+  [[https://wireshark.org][wireshark]] to check how =zypper= and mirrors work for openSUSE/SUSE.
+  What I learned was that =zypper= is very inefficient when it checks for
+  files in the mirrors. Not to mention, the fact that multiple mirrors exist
+  loses the potential of asynchronous or what most people call "parallel"
+  downloads. firstyear told me that we don't really need "parallel downloads.
+  We just actually need to avoid having that inefficient query from zypper
+  when it downloads a file from a mirror.
+  
+  I also decided to probably check if I have the energy to do a side project,
+  a [de](serializer) for ini format files. I can probably just fork the existing
+  project and improve upon it but I also wished I can start from scratch
+  so I can really learn the =serde= crate.
+  
+  Anyway, that's it for this log for now 🫡
+:END:
+- [ ] Read =*.repo= config files e.g. from =/etc/zypp/repos.d/=.
+- [ ] Read =*.xml= metadata files fetched from mirrors e.g. =repomd.xml=, =*.meta4=. [0%]
+  - [ ] Repo files
+  - [ ] Repomd files (XML)
+  - [ ] Metalink and Meta4 (XML)
+- [ ] Add unit tests
+
+** TODO =rypper-cli= [0%]
+:PROPERTIES:
+:ID:       21986092-61ae-4299-b2bc-0bda84a4317e
+:END:
+
+- [ ] Should I use clap?
+- [ ] Integrate commands
+
+** TODO  =rypper-tui= [0%]
+SCHEDULED: <2023-09-01 Fri>
+:PROPERTIES:
+:ID:       666b58da-0200-41f3-b070-66641c3ac37f
+:END:
+
+- [ ] Create UI/UX sample, either as a UML, or Tide, or a sketch.
+- [ ] Implement layout logic.
+- [ ] Ask for feedback. Rinse and Repeat
+
+** TODO =rypper-core= [0%]
+:PROPERTIES:
+:ID:       06c04349-2441-4fa5-bf00-536a7d0197d4
+:END:
+- [ ] Implement simple web requests to repositories
+- [ ] Grab all other stuff from other rypper libraries
+- [ ] Set this crate as default "gobbler" binary (grabs other rypper stuff, hence, core).
+
+* Progress notes
+
+- [[id:1f104a66-4136-4e3d-b043-7a9d414b305d][Progress with reqwest and HTTP request to openSUSE repos]] at [[id:6890316d-3e57-4bf0-9e26-75934718d4d0][2023-07-26]]
