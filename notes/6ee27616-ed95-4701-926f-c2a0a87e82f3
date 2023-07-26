@@ -1,1 +1,12 @@
-Modules and Crates
+* TODO Julia Mastery [0%]
+:PROPERTIES:
+:ID:       6ee27616-ed95-4701-926f-c2a0a87e82f3
+:END:
+
+Focus my mastery on [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]]
+- [ ] Structs and Types
+- [ ] Type Hierarchy:
+  - Concrete Types
+  - Abstract Types
+- [ ] Multiple Dispatch
+- [ ] Performance Tips

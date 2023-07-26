@@ -1,1 +1,13 @@
-Update flatpak apps every 2 days
+* TODO Rust Mastery [0%]
+:PROPERTIES:
+:ID:       a81bfd13-1b99-477f-8fef-c697da81fee4
+:END:
+
+Focus my mastery on [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]].
+- [ ] Structs  and Impls
+- [ ] Error Handling
+- [ ] Pattern Matching
+- [ ] Closures
+- [ ] Traits
+- [ ] Modules and Crates
+

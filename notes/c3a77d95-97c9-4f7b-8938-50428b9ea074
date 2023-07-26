@@ -1,1 +1,13 @@
-Forgejo (for hosting git)
+* TODO Systemd Mastery [0%]
+:PROPERTIES:
+:ID:       c3a77d95-97c9-4f7b-8938-50428b9ea074
+:END:
+- [ ] Setup services that runs on startup
+  - [[id:56fcd3f5-75e6-4453-a095-c86a8d4cc77e][Docker]]
+  - Run a program based on an env var
+- [ ] Learn about Systemd Timers
+  - Setup "cron" jobs for the following
+    - Theming (for the giggles)
+    - Delete cache at =~/.cache/= every week
+    - Update flatpak apps every 2 days
+

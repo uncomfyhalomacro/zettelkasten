@@ -1,2 +1,10 @@
-DEADLINE: <2024-01-01 Mon>
+* TODO Docker Mastery [0%]
+:PROPERTIES:
+:ID:       56fcd3f5-75e6-4453-a095-c86a8d4cc77e
+:END:
+- [ ] Communication between host and container
+- [ ] Set up PostgreSQL DB
+- [ ] Set up a running mini server instance (experimentation)
+  - NextCloud (for hosting file management system)
+  - Forgejo (for hosting git)
 
