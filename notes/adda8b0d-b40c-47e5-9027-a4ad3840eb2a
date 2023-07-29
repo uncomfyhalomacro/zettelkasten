@@ -1,11 +1,10 @@
 :PROPERTIES:
 :ID:       adda8b0d-b40c-47e5-9027-a4ad3840eb2a
 :END:
-#+title: 
 #+author: Soc Virnyl Estela
 #+email: socvirnyl.estela@gmail.com
 #+date: 2023-07-26
-#+title: rypper
+#+title:rypper
 
 * Rationale
 
@@ -90,3 +89,24 @@ SCHEDULED: <2023-09-01 Fri>
 * Progress notes
 
 - [[id:1f104a66-4136-4e3d-b043-7a9d414b305d][Progress with reqwest and HTTP request to openSUSE repos]] at [[id:6890316d-3e57-4bf0-9e26-75934718d4d0][2023-07-26]]
+- [[id:3a7b177c-eeb6-49ee-a3e4-719da20450c0][2023-07-29]] contains zypper's default behavior and the defaults for repoconfigs.
+
+** TODO RepoConfig struct should use Option
+SCHEDULED: <2023-07-29 Sat>
+
+** TODO Write own ini parser?
+Currently, the ini-parser crate has a ton of features I don't need. openSUSE repo configs
+in ini are too simple. It has the following: Alias and Parameters. We only need to parse
+the Alias e.g. =[X11_Wayland]=, and the parameters e.g. =name=, =url=, =path= etc.
+
+As an example, a config pointing to the network project repo data may look like this.
+
+#+begin_src ini
+[network]
+name=Networking services and related tools (openSUSE_Tumbleweed)
+enabled=1
+autorefresh=0
+gpgcheck=1
+gpgkey=https://download.opensuse.org/repositories/network/openSUSE_Tumbleweed/repodata/repomd.xml.key
+baseurl=https://mirrorcache-jp.opensuse.org/repositories/network/openSUSE_Tumbleweed/
+#+end_src

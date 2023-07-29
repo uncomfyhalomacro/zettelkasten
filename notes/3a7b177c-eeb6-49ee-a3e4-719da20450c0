@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       3a7b177c-eeb6-49ee-a3e4-719da20450c0
+:END:
+#+title: 2023-07-29
+
+Turns out that zypper's defaults are
+- Enabled should be true
+- GPG Check should be true
+- Autorefresh should be false
+- Priority should be least priority which is of value 99
+
+#+begin_src text
+tumbleweed% sudo zypper addrepo https://download.opensuse.org/repositories/home:uncomfyhalomacro/openSUSE_Tumbleweed/home:uncomfyhalomacro.repo
+Adding repository 'Packages I always use (openSUSE_Tumbleweed)' .......................................................................................................................[done]
+Repository 'Packages I always use (openSUSE_Tumbleweed)' successfully added
+
+URI         : https://download.opensuse.org/repositories/home:/uncomfyhalomacro/openSUSE_Tumbleweed/
+Enabled     : Yes
+GPG Check   : Yes
+Autorefresh : No
+Priority    : 99 (default priority)
+
+Repository priorities in effect:                                                                                                                             (See 'zypper lr -P' for details)
+       1 (raised priority)  :  3 repositories
+      99 (default priority) :  1 repository
+#+end_src
+
+Zypper repo files do not really matter as long as the section and url is present, therefore
+
+#+begin_src ini
+[myrepo]
+baseurl=https://download.opensuse.org/repositories/home:/uncomfyhalomacro/openSUSE_Tumbleweed/
+#+end_src
+
+Section name will substitute for the name followed by all the defaults mentioned.
