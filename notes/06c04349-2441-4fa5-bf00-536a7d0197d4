@@ -2,7 +2,7 @@
 :PROPERTIES:
 :ID:       06c04349-2441-4fa5-bf00-536a7d0197d4
 :END:
-- [ ] Implement simple web requests to repositories
+
 - [ ] Grab all other stuff from other rypper libraries
 - [ ] Set this crate as default "gobbler" binary (grabs other rypper stuff, hence, core).
 

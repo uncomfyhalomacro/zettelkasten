@@ -1,8 +1,8 @@
-** TODO =rypper-cli= [0%]
+** TODO =rypper-cli= [50%]
 :PROPERTIES:
 :ID:       21986092-61ae-4299-b2bc-0bda84a4317e
 :END:
 
-- [ ] Should I use clap?
-- [ ] Integrate commands
+- [X] Should I use clap? YES
+- [ ] Integrate commands. Probably from reader and util.
 
