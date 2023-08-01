@@ -3,8 +3,8 @@
 :END:
 #+title: What To Learn Before 2023 Ends
 
-* Deadline
-DEADLINE: <2024-01-01 Mon>
+Btw there is no such thing as /real mastery/. Just enough to get by or learn
+is my goal here.
 
 * TODO Docker Mastery [0%]
 :PROPERTIES:
@@ -29,18 +29,18 @@ DEADLINE: <2024-01-01 Mon>
     - Delete cache at =~/.cache/= every week
     - Update flatpak apps every 2 days
 
-* TODO Rust Mastery [0%]
+* TODO Rust Mastery [83%]
 :PROPERTIES:
 :ID:       a81bfd13-1b99-477f-8fef-c697da81fee4
 :END:
 
 Focus my mastery on [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]].
-- [ ] Structs  and Impls
-- [ ] Error Handling
-- [ ] Pattern Matching
-- [ ] Closures
+- [X] Structs  and Impls
+- [X] Error Handling
+- [X] Pattern Matching
+- [X] Closures
 - [ ] Traits
-- [ ] Modules and Crates
+- [X] Modules and Crates
 
 * TODO Julia Mastery [0%]
 :PROPERTIES:
@@ -50,7 +50,7 @@ Focus my mastery on [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]].
 Focus my mastery on [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]]
 - [ ] Structs and Types
 - [ ] Type Hierarchy:
-  - Concrete Types
-  - Abstract Types
+  - [ ] Concrete Types
+  - [ ] Abstract Types
 - [ ] Multiple Dispatch
 - [ ] Performance Tips

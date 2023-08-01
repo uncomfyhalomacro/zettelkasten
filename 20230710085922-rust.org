@@ -3,9 +3,15 @@
 :END:
 #+title: Rust
 
+* When to use =Option= and =Result=
+
+Use =Option= when a value is expected to be absent or =None=. Use =Result= when a value could
+be /invalidated/ or to =Error=.
+
 * Rust Book
 :PROPERTIES:
 :ID:       4d33d134-87fa-46f4-bb30-68373d9bf095
 :END:
 
 Book link is at https://doc.rust-lang.org/nightly/book/.
+
