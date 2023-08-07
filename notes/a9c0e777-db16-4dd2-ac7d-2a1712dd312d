@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a9c0e777-db16-4dd2-ac7d-2a1712dd312d
+:END:
+#+title: 2023-08-07
+
+* Progressing for rypper utils commences
+
+I think I decided to use tokio with reqwest. But first, I will
+use reqwest with blocking feature before I migrate to tokio. That
+will be decided over the weekend.

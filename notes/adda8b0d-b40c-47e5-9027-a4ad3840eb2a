@@ -4,7 +4,7 @@
 #+author: Soc Virnyl Estela
 #+email: socvirnyl.estela@gmail.com
 #+date: 2023-07-26
-#+title:rypper
+#+title: rypper
 
 * Rationale
 
@@ -12,7 +12,7 @@ Rypper is my first serious [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]] pro
 
 I will log a journal every time I have done something related to the project as =org-note=.
 
-* TODO Implement the following features per crate [%]
+* TODO Implement the following features per crate [20%]
 DEADLINE: <2024-01-01 Mon>
 
 :LOGBOOK:
@@ -22,8 +22,9 @@ DEADLINE: <2024-01-01 Mon>
   for *Rypper*.
 :END:
 
-- [ ] Use [[https://github.com/rust-lang/hashbrown][hasbrown]]. Disallow type for std hashmap and hashset at =clippy.toml=
+- [X] Use [[https://github.com/rust-lang/hashbrown][hasbrown]]. Disallow type for std hashmap and hashset at =clippy.toml=
 - [X] Add rustfmt using nightly features.
+- [ ] Use tokio for asynchronous downloads.
 
 ** TODO =rypper-utils [0%]
 SCHEDULED: <2023-08-31 Thu>
@@ -39,8 +40,8 @@ SCHEDULED: <2023-08-31 Thu>
 - [ ] Verify file signatures [0%]
   - [ ] Add option to not verify signatures? Should be at rypper-core?
     
-** TODO =rypper-reader= [0%]
-SCHEDULED: <2023-07-15 Sat>
+** DONE =rypper-reader= [100%]
+CLOSED: [2023-08-07 Mon 20:45] SCHEDULED: <2023-07-15 Sat>
 :PROPERTIES:
 :ID:       1f30bfbf-98ed-4d39-b6d5-9e338dade38f
 :END:
@@ -72,16 +73,16 @@ SCHEDULED: <2023-07-15 Sat>
   
   Anyway, that's it for this log for now 🫡
 :END:
-- [ ] Read =*.repo= config files e.g. from =/etc/zypp/repos.d/=. [0%]
-  - [ ] Migrate to another ini crate [[https://github.com/QEDK/configparser-rs][configparser]].
-  - [ ] Remove ini_core. LOL
-- [ ] Read =*.xml= metadata files fetched from mirrors e.g. =repomd.xml=, =*.meta4=. [0%]
-  - [ ] Repo files
-  - [ ] Repomd files (XML)
-  - [ ] Metalink and Meta4 (XML)
-- [-] Add unit tests [50%]
+- [X] Read =*.repo= config files e.g. from =/etc/zypp/repos.d/=. [100%]
+  - [X] +Migrate to another ini crate [[https://github.com/QEDK/configparser-rs][configparser]]+. Just used ini-core.
+  - [X] +Remove ini-core. LOL+
+- [X] Read =*.xml= metadata files fetched from mirrors e.g. =repomd.xml=, =*.meta4=. [100%]
+  - [X] Repomd files (XML)
+  - [X] Metalink v3 and Metalink v4 (XML)
+- [X] Add unit tests [100%]
   - [X] reading repo files
-  - [ ] reading xml files
+  - [X] reading xml files
+  - [X] reading repomd files
 
 ** TODO =rypper-cli= [50%]
 :PROPERTIES:
@@ -114,8 +115,8 @@ SCHEDULED: <2023-09-01 Fri>
 - [[id:1f104a66-4136-4e3d-b043-7a9d414b305d][Progress with reqwest and HTTP request to openSUSE repos]] at [[id:6890316d-3e57-4bf0-9e26-75934718d4d0][2023-07-26]]
 - [[id:3a7b177c-eeb6-49ee-a3e4-719da20450c0][2023-07-29]] contains zypper's default behavior and the defaults for repoconfigs.
 
-** TODO RepoConfig struct should use Option
-SCHEDULED: <2023-07-29 Sat>
+** DONE RepoConfig struct should use Option
+CLOSED: [2023-08-06 Sun 20:45] SCHEDULED: <2023-07-29 Sat>
 
 ** DONE Write own ini parser?
 CLOSED: [2023-08-01 Tue 22:18]
